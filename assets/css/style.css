@@ -4,8 +4,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 header {
-    font-family: Dancing Script;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    box-shadow:2px;
+}
+header * {
+    display:inline;
+}
+header li {
+    margin:20px;
+}
+header li a {
+    color: #fafafa;
+    text text-decoration:none;
+    font-family:Dancing Script;
+    font-size:100%
+}
+nav {
+    background: transparent;
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding:10px 70px 10px 70px;
+    width:100%
+    right: 0;
 }
 #front-page {
     height: 600px;
@@ -17,12 +46,11 @@ header {
 #holly-text h2 {
     color:#fafafa;
     font-family: Dancing Script;
-    left: 0;
-    line-height: 200px;
-    margin-top: -100px;
+    left: 0;    
     position: absolute;
     text-align: center;
     top: 30%;
     width: 100%;
+    font-size: 200%;
 }
 

@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    height: 100%;
+}
+
 body {
     width: 100%;
     height: 100%;
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,43 +33,50 @@ header {
     left: 0;
     right: 0;
     height: 80px;
-    display:flex;
+    display: flex;
     align-items: center;
-    box-shadow:2px;
+    box-shadow: 2px;
 }
+
 header * {
-    display:inline;
+    display: inline;
 }
+
 header li {
-    margin:20px;
+    margin: 20px;
 }
+
 header li a {
     color: #fafafa;
-    text text-decoration:none;
-    font-family:Dancing Script;
-    font-size:100%
+    text text-decoration: none;
+    font-family: Dancing Script;
+    font-size: 100%
 }
+
 nav {
     width: 100%;
-    height:50px;
-    position:absolute;
+    height: 50px;
+    position: absolute;
     text-align: center;
 
 }
+
 nav>ul {
-    width:50%;
-    height:100%;
+    width: 50%;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
 }
+
 na>ul>li {
     display: block;
     float: left;
     width: 25%;
     text-align: center;
     line-height: 50px;
-    
+
 }
+
 nav>ul>li>a {
     color: #fafafa;
     text-decoration: none;
@@ -69,9 +85,11 @@ nav>ul>li>a {
     width: 100%;
     height: 100%;
 }
+
 nav>ul>li>a:hover {
-font-size: 300%;
+    font-size: 300%;
 }
+
 #front-page {
     height: 600px;
     width: 100%;
@@ -79,22 +97,28 @@ font-size: 300%;
     position: relative;
 
 }
-#holly-text h2{
-    color:#fafafa;
+
+#holly-text h2 {
+    color: #fafafa;
     font-family: Dancing Script;
     text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 500px;
-font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-size: 300%;
 }
-#holly-text h3{
-    color:#fafafa;
-    font-family: Dancing Script;
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: transparent;
+    color: white;
     text-align: center;
+    margin-top: auto;
 }
-/* footer */
 
 #social-networks {
     text-align: center;
@@ -109,8 +133,3 @@ font-size: 200%;
     padding: 5%;
     color: #fafafa;
 }
-
-
-
-
-

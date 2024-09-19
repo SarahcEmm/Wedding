@@ -91,21 +91,21 @@ nav>ul>li>a:hover {
 }
 
 #front-page {
-    height: 600px;
+    height: 100%;
     width: 100%;
     background: url('../images/pexels-asadphoto-1024968.jpg') no-repeat center center/cover;
     position: relative;
 
 }
 
-#holly-text h2 {
+#holly-text h2 { 
     color: #fafafa;
     font-family: Dancing Script;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 900px;
     font-size: 300%;
 }
 
@@ -159,4 +159,17 @@ z-index: -1;
     align-items: center;
     height: 300px;
     font-size: 300%;
+    }
+    #holly-bio {
+        background: url('../images/rose-petals-693570_1280.jpg') no-repeat center center/cover;; 
+        margin:20px;
+        padding: 20px;
+        font-size: 200%;
+    }
+
+
+#paper {
+    background: url('../images/paper-3061485_1280.jpg') no-repeat top center / cover;
+    height: 100vw;
+    width: 100vw;
 }

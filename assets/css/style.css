@@ -176,6 +176,16 @@ main {
         text-align: center;
         margin-top: auto;
     }
+    .footer-about {
+        background-color: rgb(14, 69, 99);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: #fafafa;
+        text-align: center;
+        margin-top: auto;
+    }
 
 
 
@@ -184,4 +194,5 @@ main {
     background: url('../images/paper-3061485_1280.jpg') no-repeat top center / cover;
     height: 100vw;
     width: 100vw;
+
 }

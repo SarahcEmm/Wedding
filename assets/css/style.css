@@ -79,31 +79,24 @@ font-size: 300%;
     position: relative;
 
 }
-#holly-text h2 {
+#holly-text h2{
     color:#fafafa;
     font-family: Dancing Script;
-    left: 0;    
-    position: fixed;
     text-align: center;
-    top: 30%;
-    width: 100%;
-    font-size: 350%;
-    box-shadow: 2px;
-    
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+font-size: 200%;
 }
-#holly-text h3 {
+#holly-text h3{
     color:#fafafa;
     font-family: Dancing Script;
-    left: 0;    
-    position: absolute;
-    padding: 40px;
     text-align: center;
-    top: 30%;
-    width: 100%;
-    font-size: 100%;
-    box-shadow: 2px;
-    
-    
 }
+/**/
+
+
+
 
 

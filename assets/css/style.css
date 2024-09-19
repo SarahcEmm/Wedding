@@ -138,4 +138,25 @@ nav>ul>li>a:hover {
 }
 main {
     color: black;
+    margin:0;
+    padding: 0;
+
+}
+#holly-image {
+background: url('../images/woman-8837330_640.jpg') no-repeat center center/cover;
+height: 50%;
+width: 100%;
+position: relative;
+z-index: -1;
+
+}
+#about-holly {
+    color: #fafafa;
+    font-family: Dancing Script;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 300%;
 }

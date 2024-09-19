@@ -133,3 +133,9 @@ nav>ul>li>a:hover {
     padding: 5%;
     color: #fafafa;
 }
+#about-page {
+    background-color: rgb(14, 69, 99);
+}
+main {
+    color: black;
+}

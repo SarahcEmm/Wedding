@@ -184,7 +184,7 @@ main {
     background-image: url('../images/rose-petals-693570_1280.jpg');
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 20px 20% 20% 20%;
     flex-grow: 1;
 
 }
@@ -197,6 +197,14 @@ main {
     padding:40px;
     font-size: 250%;
     text-align: center;
+}
+.submit {
+    background-color: rgb(14, 69, 99);
+    color: #fafafa;
+    padding: 10px;
+    box-shadow: inset;
+font-size: 250%;
+
 }
 .text-input {
     background: transparent;

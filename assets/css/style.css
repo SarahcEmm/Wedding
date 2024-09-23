@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    
+
 
 }
 
@@ -36,6 +36,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
+    box-shadow: 2px;
 }
 
 header * {
@@ -48,6 +49,7 @@ header li {
 
 header li a {
     color: #fafafa;
+    text text-decoration: none;
     text-decoration: none;
     font-family: Dancing Script;
     font-size: 100%
@@ -97,14 +99,8 @@ nav>ul>li>a:hover {
     position: relative;
 
 }
-#holly-text-place {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-grow: 1;
-}
 
-#holly-text h2, {
+#holly-text h2 {
     color: #fafafa;
     font-family: Dancing Script;
     text-align: center;
@@ -113,11 +109,6 @@ flex-grow: 1;
     align-items: center;
     height: 500px;
     font-size: 300%;
-}
-
-#holly-text {
-    color: #fafafa;
-    text-align: center;
 }
 
 
@@ -177,6 +168,10 @@ main {
         padding: 20px;
         font-size: 200%;
     }
+    #css-flex {
+        width: ;
+        
+    }
     
 #flex-images{
     display: flex;
@@ -184,6 +179,7 @@ main {
     align-content: space-between;
     justify-content: space-around;
     align-items: flex-start;
+    align-self: ;
     flex-shrink: 1;
 }
 #contact {
@@ -208,6 +204,7 @@ main {
     background-color: rgb(14, 69, 99);
     color: #fafafa;
     padding: 10px;
+    box-shadow: inset;
 font-size: 250%;
 
 }
@@ -223,13 +220,15 @@ font-size: 250%;
     color: #fafafa;
     width: 100%;
     height: 50px;
+    margin: 20px 
+    border: 1px solid #fafafa;
     border-radius: 2px;
-    
+
 }
 
 label {
     font-size: 250%;
-    
+
 }
 
     .footer {
@@ -256,7 +255,7 @@ label {
         width: 100%;
         line-height: 1em;
     }
-    
+
     #flex-images {
         line-height: 0;
     }

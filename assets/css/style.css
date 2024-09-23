@@ -98,6 +98,13 @@ nav>ul>li>a:hover {
 
 }
 
+#holly-text-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
 #holly-text h2 {
     color: #fafafa;
     font-family: Dancing Script;

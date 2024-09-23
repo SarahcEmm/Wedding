@@ -3,7 +3,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -13,9 +12,6 @@ html {
 body {
     width: 100%;
     height: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 
 }
 
@@ -166,6 +162,20 @@ main {
         padding: 20px;
         font-size: 200%;
     }
+    #css-flex {
+        width: ;
+        
+    }
+#flex-images{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-self: ;
+    flex-shrink: 1;
+}
+
     .footer {
         background-color: transparent;
         position: fixed;
@@ -186,6 +196,14 @@ main {
         text-align: center;
         margin-top: auto;
     }
+    #flex-images img {
+        width: 100%;
+        line-height: 1em;
+    }
+    
+    #flex-images {
+        line-height: 0;
+    }
 
 
 
@@ -194,5 +212,25 @@ main {
     background: url('../images/paper-3061485_1280.jpg') no-repeat top center / cover;
     height: 100vw;
     width: 100vw;
+
+}
+@media screen and (min-width: 576px) {
+    #flex-images {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #flex-images {
+        column-count: 3;
+    }
+}
+@media screen and (min-width: 992px) {
+    #flex-images {
+        column-count: 4;
+    }
+}
+@media screen and (min-width: 1200px) {
 
 }

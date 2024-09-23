@@ -206,6 +206,12 @@ main {
 font-size: 250%;
 
 }
+#phone {
+    color:#fafafa;
+    background-color: rgb(14, 69, 99);
+    margin-top: 30%;
+    text-align: center;
+}
 .text-input {
     background: transparent;
     color: #fafafa;

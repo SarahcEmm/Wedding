@@ -36,7 +36,6 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    box-shadow: 2px;
 }
 
 header * {
@@ -49,7 +48,7 @@ header li {
 
 header li a {
     color: #fafafa;
-    text text-decoration: none;
+    text-decoration: none;
     font-family: Dancing Script;
     font-size: 100%
 }
@@ -167,17 +166,13 @@ main {
         padding: 20px;
         font-size: 200%;
     }
-    #css-flex {
-        width: ;
-        
-    }
+    
 #flex-images{
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-around;
     align-items: flex-start;
-    align-self: ;
     flex-shrink: 1;
 }
 #contact {
@@ -202,7 +197,6 @@ main {
     background-color: rgb(14, 69, 99);
     color: #fafafa;
     padding: 10px;
-    box-shadow: inset;
 font-size: 250%;
 
 }
@@ -211,14 +205,13 @@ font-size: 250%;
     background-color: rgb(14, 69, 99);
     margin-top: 30%;
     text-align: center;
+    font-size: 250%;
 }
 .text-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
     height: 50px;
-    margin: 20px 
-    border: 1px solid #fafafa;
     border-radius: 2px;
     
 }

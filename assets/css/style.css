@@ -97,15 +97,14 @@ nav>ul>li>a:hover {
     position: relative;
 
 }
-
-#holly-text-holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+#holly-text-place {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
 }
 
-#holly-text h2 {
+#holly-text h2, {
     color: #fafafa;
     font-family: Dancing Script;
     text-align: center;
@@ -114,6 +113,11 @@ nav>ul>li>a:hover {
     align-items: center;
     height: 500px;
     font-size: 300%;
+}
+
+#holly-text {
+    color: #fafafa;
+    text-align: center;
 }
 
 
